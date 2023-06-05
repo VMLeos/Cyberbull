@@ -105,9 +105,63 @@ h1{
     box-shadow: 0px 0px 20px 5px rgb(240, 200, 21);
     color:rgb(186, 243, 53); 
   }
+  .btnder{
+    text-decoration: none;
+    display:inline-block;
+    width:50%;
+    padding:5px;
+    background: rgb(56, 116, 8);
+    width:20%;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 20px 5px rgb(175, 248, 132);
+    border-radius: 10px;
+   }
+
+  .btnder:hover{
+
+    box-shadow: 0px 0px 20px 5px rgb(240, 200, 21);
+    color:rgb(186, 243, 53); 
+  }
   .cont{
     color: white;
-    
+    text-align-center;
+    width: 100%;
+  }
+  .izq{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 57px;
+    float: left;
+    position: relative;
+    width: 45%;
+    height: auto;
+  }
+  .der{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+    width: 45%;
+    height: auto;
+  }
+  .centr{
+    float: left;
+    color: white;
+    display:inline-block;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;   
+    padding-bottom: 10px;
+    background-color: steelblue;
+    width: 97%;
   }
 
 </style>
