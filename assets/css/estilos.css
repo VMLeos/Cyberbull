@@ -10,7 +10,21 @@ h1{
 	background-color:rgba(10,74,146, 0.5);
 	color:fff;
 }
-
+.margin{
+  margin-top: 20px;
+}
+.margin2{
+  margin-top: 40px;
+}
+.margin3{
+margin-top: 60px;
+}
+.margin2a{
+  margin-bottom: 40px;
+}
+.margin3a{
+  margin-bottom: 60px;
+}
 
 .footer{
 	background-color:rgba(10,74,146, 0.5);
@@ -147,6 +161,15 @@ h1{
     width: 45%;
     height: auto;
   }
+  .cent{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 57px;
+    float: center;
+    position: relative;
+    width: 45%;
+    height: auto;
+  }
   .der{
     padding-top: 10px;
     padding-left: 10px;
@@ -243,4 +266,24 @@ loge a:hover{
   color: #fff;
   text-decoration: none;
 }
+
+
+// video container
+
+#video-container {
+  position: relative;
+}
+
+#boton-enlace {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#boton-enlace.show {
+  display: block;
+}
+
 </style>
