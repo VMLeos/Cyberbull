@@ -45,12 +45,12 @@ margin-top: 60px;
   text-align: center;
   }
 
+/*Butons==========================*/
   .btn{
 	color: fff
   }
-  
-  .btn{
-            
+
+  .btn{        
     text-decoration: none;
     display:inline-block;
     width:50%;
@@ -67,17 +67,14 @@ margin-top: 60px;
 
   }
 
-
-  .btn:hover{
-            
+  .btn:hover{       
     background: rgb(240, 225, 14);
     color:rgb(107, 98, 16);
     box-shadow:none;
     border-radius: 10px;
-
   }
-  .btnreturn{
-          
+
+  .btnreturn{      
     text-decoration: none;
     display:inline-block;
     width:50%;
@@ -94,11 +91,10 @@ margin-top: 60px;
    }
 
   .btnreturn:hover{
-
     box-shadow: 0px 0px 20px 5px rgb(240, 236, 18);
-    color:rgb(240, 200, 21);
-    
+    color:rgb(240, 200, 21); 
   }
+
   .btnir{
     text-decoration: none;
     display:inline-block;
@@ -120,6 +116,7 @@ margin-top: 60px;
     box-shadow: 0px 0px 20px 5px rgb(240, 200, 21);
     color:rgb(186, 243, 53); 
   }
+
   .btnder{
     text-decoration: none;
     display:inline-block;
@@ -137,21 +134,25 @@ margin-top: 60px;
    }
 
   .btnder:hover{
-
     box-shadow: 0px 0px 20px 5px rgb(240, 200, 21);
     color:rgb(186, 243, 53); 
   }
+  /*End butons==============================*/
   .cont{
     color: white;
     text-align: center;
     width: 100%;
   }
   .cont h4{
-    color:#000105
+    color: white;
+    text-align: center;
+    width: 100%;
   }
+  
   .href{
     text-align: center;
   }
+  /*containers===============*/
   .izq{
     padding-left: 10px;
     padding-top: 10px;
@@ -161,7 +162,7 @@ margin-top: 60px;
     width: 45%;
     height: auto;
   }
-  .cent{
+  .center{
     padding-left: 10px;
     padding-top: 10px;
     margin-left: 57px;
@@ -169,6 +170,7 @@ margin-top: 60px;
     position: relative;
     width: 45%;
     height: auto;
+    border: #870bec 3px solid;
   }
   .der{
     padding-top: 10px;
@@ -179,6 +181,28 @@ margin-top: 60px;
     width: 45%;
     height: auto;
   }
+  .izq2{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 57px;
+    float: left;
+    position: relative;
+    width: 45%;
+    height: auto;
+    border: #870bec 3px solid;
+  }
+  .der2{
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+    width: 45%;
+    height: auto;
+    border: #870bec 3px solid;
+  }
+  /*End containers==========*/
   .centr{
     float: left;
     color: white;
