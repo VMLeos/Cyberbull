@@ -187,9 +187,10 @@ margin-top: 60px;
     margin-left: 57px;
     float: left;
     position: relative;
-    width: 45%;
-    height: auto;
+    width: 850px;
+    height: 850px;
     border: #870bec 3px solid;
+    background-color:rgba(10,74,146, 0.7);
   }
   .der2{
     float: right;
@@ -198,9 +199,33 @@ margin-top: 60px;
     margin-left: 10px;
     position: relative;
     float: left;
-    width: 45%;
-    height: auto;
+    width: 850px;
+    height: 850px;
     border: #870bec 3px solid;
+    background-color:rgba(10,74,146, 0.7);
+  }
+  .izq3{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 57px;
+    float: left;
+    position: relative;
+    width: 850px;
+    height: 850px;
+    border: #870bec 3px solid;
+    background-color:rgba(177, 40, 51, 0.7);
+  }
+  .der3{
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+    width: 850px;
+    height: 850px;
+    border: #870bec 3px solid;
+    background-color:rgba(177,40,51, 0.7);
   }
   /*End containers==========*/
   .centr{
